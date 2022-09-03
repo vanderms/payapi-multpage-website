@@ -1,6 +1,11 @@
 {
   "header": {
     "title": "Payapi",
+    "assets": {
+      "logo": "/assets/shared/desktop/logo.svg",
+      "menu": "/assets/shared/mobile/menu.svg",
+      "close": "/assets/shared/mobile/close.svg"
+    },
     "links": [
       {
         "text": "Pricing",

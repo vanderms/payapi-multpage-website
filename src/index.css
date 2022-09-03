@@ -55,6 +55,17 @@
     line-height: 1.5rem;
   }
 
+  /*BUTTONS*/
+  .primary-button {
+    @apply block font-sans font-bold bg-primary hover:bg-primary-300 text-neutral-50 
+    px-6 w-full text-center rounded-full;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: -0.115385px;
+    padding-top: 1rem;
+    padding-bottom: 0.875rem;
+  }
+
   @media screen(sm) {
     .container {
       max-width: 20.4375rem;
