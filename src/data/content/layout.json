@@ -1,0 +1,23 @@
+{
+  "header": {
+    "title": "Payapi",
+    "links": [
+      {
+        "text": "Pricing",
+        "to": "/pricing"
+      },
+      {
+        "text": "About",
+        "to": "/about"
+      },
+      {
+        "text": "Contact",
+        "to": "/contact"
+      }
+    ],
+    "cta": {
+      "text": "Schedule a Demo",
+      "to": "/"
+    }
+  }
+}

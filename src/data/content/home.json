@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "image": "/assets/home/desktop/illustration-phone-mockup.svg",
+    "title": "Start building with our APIs for absolutely free.",
+    "cta": {
+      "textfield": "Enter email address",
+      "submit": "Schedule a Demo",
+      "text": {
+        "normal": "Have any questions?",
+        "strong": "Contact Us"
+      }
+    }
+  }
+}
