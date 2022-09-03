@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
               <a href={link.to} target="_blank" rel="noopener noreferrer">
                 <Icon
                   icon={link.name}
-                  className="w-6 h-6 text-neutral-50 hover:text-primary"
+                  className="w-6 h-6 text-neutral-50 hover:text-primary-300"
                 />
               </a>
             </li>
