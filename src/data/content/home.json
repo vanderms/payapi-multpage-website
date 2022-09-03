@@ -10,5 +10,39 @@
         "strong": "Contact Us"
       }
     }
+  },
+  "brands": {
+    "title": "Who we work with",
+    "text": "Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.",
+    "link": {
+      "to": "/about",
+      "text": "About Us"
+    },
+    "brands": [
+      {
+        "name": "Tesla",
+        "logo": "/assets/shared/desktop/tesla.svg"
+      },
+      {
+        "name": "Microsoft",
+        "logo": "/assets/shared/desktop/microsoft.svg"
+      },
+      {
+        "name": "HP",
+        "logo": "/assets/shared/desktop/hewlett-packard.svg"
+      },
+      {
+        "name": "Oracle",
+        "logo": "/assets/shared/desktop/oracle.svg"
+      },
+      {
+        "name": "Google",
+        "logo": "/assets/shared/desktop/google.svg"
+      },
+      {
+        "name": "nvidia.svg",
+        "logo": "/assets/shared/desktop/nvidia.svg"
+      }
+    ]
   }
 }

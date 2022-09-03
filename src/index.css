@@ -81,6 +81,31 @@
     padding-bottom: 0.875rem;
   }
 
+  .secondary-button {
+    @apply block font-sans font-bold text-center rounded-full px-8;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    letter-spacing: -0.115385px;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.8125rem;
+  }
+
+  .secondary-button.dark {
+    @apply border border-neutral-50 text-neutral-50;
+  }
+
+  .secondary-button.light {
+    @apply border border-neutral-900 text-neutral-900;
+  }
+
+  .secondary-button:hover.dark {
+    @apply bg-neutral-100 text-neutral-900;
+  }
+
+  .secondary-button:hover.white {
+    @apply bg-neutral-900 text-neutral-50;
+  }
+
   @media screen(sm) {
     .container {
       max-width: 20.4375rem;

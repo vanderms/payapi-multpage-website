@@ -22,10 +22,10 @@ export const Header: React.FC = () => {
         <img
           src={data.shared.assets.pattern}
           alt=""
-          className={`max-w-none w-[48rem] aspect-square relative ${
+          className={`max-w-none w-[48.5rem] aspect-square relative ${
             location.pathname === "/"
               ? `left-[calc(50vw-24.375rem)] top-[-31.5625rem] md:w-[59.3125rem] md:left-[calc(50vw-29.6563rem)]
-                xl:w-[48rem] xl:left-[50rem] xl:top-[-10.75rem]    `
+                xl:w-[48.75rem] xl:left-[50rem] xl:top-[-10.75rem]    `
               : "top-[-40.25rem] left-[4.625rem] md:top-[-31.5rem] md:left-[31.5625rem] xl:top-[-32.9375rem] xl:left-[50rem]"
           }`}
         />
