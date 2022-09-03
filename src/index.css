@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    line-height: inherit;
+  }
+
+  html {
+    line-height: 100%;
+  }
+
+  body {
+    @apply bg-neutral-100;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto;
+    max-width: 92%;
+  }
+
+  @media screen(sm) {
+    .container {
+      max-width: 20.4375rem;
+    }
+
+    #root {
+      @apply mx-auto;
+      max-width: 28rem;
+    }
+  }
+
+  @media screen(md) {
+    #root {
+      max-width: 50rem;
+    }
+    .container {
+      max-width: 43.0625rem;
+    }
+  }
+
+  @media screen(xl) {
+    #root {
+      max-width: 90rem;
+    }
+
+    .container {
+      max-width: 69.375rem;
+    }
+  }
+}
