@@ -19,6 +19,15 @@
 }
 
 @layer components {
+  #root {
+    @apply max-w-full overflow-hidden relative;
+    isolation: isolate;
+  }
+
+  #main {
+    min-height: 100vh;
+  }
+
   .container {
     @apply mx-auto;
     max-width: 92%;
@@ -53,6 +62,12 @@
     @apply font-sans font-bold text-neutral-50 opacity-70;
     font-size: 1.25rem;
     line-height: 1.5rem;
+  }
+
+  .footer-text {
+    @apply font-sans font-bold text-neutral-50 opacity-70 hover:opacity-100;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
   }
 
   /*BUTTONS*/

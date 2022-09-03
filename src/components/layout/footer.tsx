@@ -1,7 +1,9 @@
 export const Footer: React.FC = () => { 
   return (
-    <div>
-      Footer works!
-    </div>
+    <footer className="bg-neutral-900">
+      <div className="container">
+
+      </div>
+    </footer>
   );
 };
