@@ -24,6 +24,37 @@
     max-width: 92%;
   }
 
+  /*TYPOGRAPHY*/
+  .heading-xl {
+    @apply font-serif font-normal;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.246154px;
+  }
+
+  .heading-md {
+    @apply font-serif font-normal;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.246154px;
+  }
+
+  .paragraph-md {
+    @apply font-sans font-normal;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+  }
+
+  .paragraph-md.lhsm {
+    line-height: 1.5625rem;
+  }
+
+  .navbar-text {
+    @apply font-sans font-bold text-neutral-50 opacity-70;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
   @media screen(sm) {
     .container {
       max-width: 20.4375rem;
@@ -39,8 +70,32 @@
     #root {
       max-width: 50rem;
     }
+
     .container {
       max-width: 43.0625rem;
+    }
+
+    /*TYPOGRAPHY*/
+    .heading-xl {
+      font-size: 3rem;
+      line-height: 3.5rem;
+      letter-spacing: -0.369231px;
+    }
+
+    .heading-md {
+      font-size: 3rem;
+      line-height: 3.5rem;
+      letter-spacing: -0.369231px;
+    }
+
+    .heading-md.ftlg {
+      font-size: 3.5rem;
+    }
+
+    .navbar-text {
+      @apply text-neutral-900 hover:opacity-100;
+      font-size: 0.9375rem;
+      line-height: 1.125rem;
     }
   }
 
@@ -51,6 +106,13 @@
 
     .container {
       max-width: 69.375rem;
+    }
+
+    /*TYPOGRAPHY*/
+    .heading-xl {
+      font-size: 4.5rem;
+      line-height: 4.5rem;
+      letter-spacing: -0.553846px;
     }
   }
 }
