@@ -24,7 +24,7 @@ export const Header: React.FC = () => {
           </Link>
           <button
             aria-label="open menu"
-            className="py-1 px-2"
+            className="py-1 px-2 md:hidden"
             onClick={() => {
               setSidebar({ open: true });
             }}
@@ -33,7 +33,7 @@ export const Header: React.FC = () => {
           </button>
           {sidebar.open && (
             <div
-              className="fixed inset-0 z-[99998]"
+              className="fixed inset-0 z-[99998] md:hidden"
               onClick={() => {
                 setSidebar({ open: false });
               }}
@@ -41,21 +41,21 @@ export const Header: React.FC = () => {
           )}
           <div
             className={`fixed top-0 bg-neutral-900 h-screen w-[min(18.75rem,100%)] pt-12 px-6 flex flex-col
-              z-[99999]
+              z-[99999] md:contents
               ${sidebar.open ? "right-0 transition-all" : "right-[-18.75rem]"}
             `}
           >
             <button
               aria-label="close menu"
-              className="py-1 px-2 self-end"
+              className="py-1 px-2 self-end md:hidden"
               onClick={() => {
                 setSidebar({ open: false });
               }}
             >
               <img src={data.header.assets.close} alt="" />
             </button>
-            <div className="mt-6 w-full h-0 border-b border-neutral-100/20"></div>
-            <ul className="mt-11 flex flex-col items-center gap-8">
+            <div className="mt-6 w-full h-0 border-b border-neutral-100/20 md:hidden"></div>
+            <ul className="mt-11 flex flex-col items-center gap-8 md:flex-row md:mt-0 md:w-max md:grow md:ml-16">
               {data.header.links.map((link, i) => (
                 <li key={i}>
                   <Link to={link.to} className="navbar-text">
@@ -64,7 +64,7 @@ export const Header: React.FC = () => {
                 </li>
               ))}
             </ul>
-            <div className="mt-8 w-full">
+            <div className="mt-8 w-full md:w-max md:mt-0">
               <Link to={data.header.cta.to} className="primary-button">
                 {data.header.cta.text}
               </Link>
